@@ -1,0 +1,22 @@
+@mixin base($border-width) {
+    width: $default-width;
+    border-width: $border-width;
+    borer-style: solid; //border-style: $default-border-style;
+    padding: $default-padding;
+}
+
+@mixin block($color1, $color2) {
+	border-left: 5px solid $color1;
+	background-color: $color2;	
+}
+@mixin content($content,$color,$float-left) {
+	content: $content;
+    color: $color;
+    float: $float-left;
+}
+@mixin radius($border-radius) {
+    border-radius: $border-radius;
+}
+@mixin display-inline($inline-block) {
+    display: $inline-block;
+}

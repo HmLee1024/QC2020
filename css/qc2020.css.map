@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": ";AIAA,AAAA,GAAG,CAAC;EDCA,KAAK,EDDO,IAAI;ECEhB,YAAY,ECDE,GAAG;EDEjB,WAAW,EAAE,KAAK;EAClB,OAAO,EDFO,GAAG;CEApB;;AAED,AAAA,MAAM,CAAC;EDIN,WAAW,EAAE,GAAG,CAAC,KAAK,CFLjB,OAAiB;EEMtB,gBAAgB,EFGV,KAAgB;EGNtB,aAAa,EAAE,IAAI;CACnB;;AAED,AAAA,MAAM,AAAA,OAAO,CAAC;EDGb,OAAO,EDNE,IAAO;ECOhB,KAAK,EFPG,OAAc;EGKtB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,OAAO;EACpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,kBAAkB;CAC1B",
     "sources": [
-        "../scss/qc2020.scss"
+        "../scss/qc2020.scss",
+        "../scss/_color.scss",
+        "../scss/_variabls.scss",
+        "../scss/_mixin.scss",
+        "../scss/_main.scss"
     ],
     "names": [],
     "file": "qc2020.css"

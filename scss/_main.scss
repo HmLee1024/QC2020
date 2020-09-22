@@ -1,0 +1,21 @@
+.qc {
+    @include base(1px);
+}
+
+.block {
+    @include block($sky,$snow);
+	padding-right: 10px;    
+}
+
+.block:before {
+    @include content($content,$banana,$float-left);
+	font-size: 3em;
+	font-family: Georgia;
+	margin: 5px 10px 0px -10px;
+}
+.image {
+	@include radius($border-radius);
+	@include display($inline-block);
+	border: 0;
+	position: relative;
+}

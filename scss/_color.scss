@@ -1,28 +1,28 @@
-// Optical(Alpa value)
-$alpa: 0.3 !default;
+// Optical(Alpha value)
+$alpha: 0.3;
 // default color
-$blue: rgb(32, 109, 192) !default;
-$purple: rgb(110,65,193) !default;
-$red: rgb(221,53,69) !default;
-$yellow: rgb(255,193,6) !default;
-$green: rgb(40,167,69) !default;
+$sky: rgb(32, 109, 192) !default;
+$grape: rgb(110,65,193) !default;
+$sunset: rgb(221,53,69) !default;
+$banana: rgb(255,193,6) !default;
+$leaf: rgb(40,167,69) !default;
 // Gray
-$gray: rgb(108,117,125) !default;
-$dark: rgb(52,58,64) !default;
+$mouse: rgb(108,117,125) !default;
+$darkmouse: rgb(52,58,64) !default;
 // Black & White
-$white: rgb(255,255,255) !default;
-$black: rgb(0,0,0) !default;
+$snow: rgb(255,255,255) !default;
+$night: rgb(0,0,0) !default;
 // background color
-$bg-blue: rgba($blue,$alpa) !default;
-$bg-purple: rgba($purple,$alpa) !default;
-$bg-red: rgba($red,$alpa) !default;
-$bg-yellow: rgba($yellow,$alpa) !default;
-$bg-green: rgba($green,$alpa) !default;
+$bg-sky: rgba($sky,$alpha) !default;
+$bg-grape: rgba($grape,$alpha) !default;
+$bg-sunset: rgba($sunset,$alpha) !default;
+$bg-banana: rgba($banana,$alpha) !default;
+$bg-leaf: rgba($leaf,$alpha) !default;
 //default color array
 $default-color: (
-    'blue': $blue,
-    'purple': $purple,
-    'red': $red,
-    'yellow': $yellow,
-    'green': $green
+    'sky': $sky,
+    'grape': $grape,
+    'sunset': $sunset,
+    'banana': $banana,
+    'leaf': $leaf
 );
