@@ -1,9 +1,16 @@
+html {
+	@include root-font-size($root-font-size);
+}
+
+
 .qc {
     @include base(1px);
 }
 
 .block {
-    @include block($sky,$snow);
+	@include block($sky,$snow);
+	@include h2 ($h2);
+	@include web-font($web-font);
 	padding-right: 10px;    
 }
 
@@ -15,7 +22,6 @@
 }
 .image {
 	@include radius($border-radius);
-	@include display($inline-block);
 	border: 0;
 	position: relative;
 }

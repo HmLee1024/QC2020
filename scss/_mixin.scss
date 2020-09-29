@@ -20,3 +20,29 @@
 @mixin display-inline($inline-block) {
     display: $inline-block;
 }
+@mixin root-font-size($root-font-size) {
+    font-size: $root-font-size;
+}
+
+@mixin h1($h1) {
+    font-size: $h1;
+}
+@mixin h2($h2) {
+    font-size: $h2;
+}
+@mixin h3($h3) {
+    font-size: $h3;
+}
+@mixin h4($h4) {
+    font-size: $h4;
+}
+@mixin h5($h5) {
+    font-size: $h5;
+}
+@mixin h6($h6) {
+    font-size: $h6;
+}
+
+@mixin web-font($web-font) {
+    font-family: $web-font;
+}
